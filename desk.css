@@ -1,0 +1,19 @@
+h1{
+    font-size: 6rem;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 170px;
+}
+.tijera{
+    height: 300px;
+    width: 250px;
+}
+.papel{
+    height: 300px;
+    width: 250px;
+}
+.piedra{
+    height: 300px;
+    width: 250px;
+}
