@@ -1,1 +1,19 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./desk.css" media="(min-width: 820px)">
+</head>
+<body>
+    <h1>Piedra, papel o tijera</h1>
+    <div class="container">
+        <button onclick="GAME('papel', ROBOT())"  class="papel"><img src="./assets/6871814bffdc8b028c838a50ca901ae3.png" alt="papel"></button>
+        <button onclick="GAME('tijera', ROBOT())" class="tijera"><img src="./assets/58a1ea7fc8dd3432c6fa81ca.png" alt="tijera"></button>
+        <button onclick="GAME('piedra', ROBOT())"  class="piedra"><img src="./assets/b55eccb8fb67c9fd017e5df9f47cab3e-roca-de-piedra-by-vexels.png" alt="piedra"></button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
